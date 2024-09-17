@@ -1,0 +1,724 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.caption h2,
+.about h2 {
+    font-family: "Concert One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.about h2 {
+    font-weight: 700;
+    text-align: center;
+    animation-iteration-count: infinite;
+}
+
+.line {
+    border-top: 3px solid #20c997;
+    width: 5%;
+    margin: auto;
+    transition: all 1s;
+}
+
+
+
+
+
+.head-caption {
+    animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    user-select: none;
+}
+
+.head-caption:hover .line {
+    animation: sized 1s;
+}
+
+@keyframes sized {
+    0% {
+        width: 7%;
+
+
+    }
+
+    100% {
+        width: 13%;
+
+
+    }
+}
+
+.caption h1 {
+    font-size: 64px;
+    line-height: 96px;
+}
+
+.caption p {
+    font-size: 20px;
+}
+
+.home {
+
+    background-image: url(../imges/intro-bg.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.overlay {
+    background-color: rgb(0, 0, 0, .7);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    font-size: 20px;
+}
+
+.sim {
+    color: #20c997;
+}
+
+.one {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    transition: all .5s;
+}
+
+.nav-link:hover {
+    color: #20c997;
+    transform: rotate(15deg);
+}
+
+.caption {
+    color: #fff;
+    text-align: center;
+}
+
+.caption button {
+    padding: 8px 25px;
+    background-color: transparent;
+    border: 2px solid #20c997;
+    color: #20c997;
+    margin-top: 15px;
+    border-radius: 40px;
+    transition: all .6s;
+
+}
+
+.caption button:hover {
+    border: 2px solid #20c997;
+    background-color: #20c997;
+    color: #fff;
+}
+
+.caption h1::after {
+    content: ' |';
+    color: #ffffff;
+    animation: typing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes typing {
+    0% {
+        content: '|';
+    }
+
+    1% {
+        content: '| ';
+
+    }
+
+    2% {
+        content: '| S';
+        color: #20c997;
+    }
+
+    3% {
+        content: '|Si';
+
+    }
+
+    4% {
+        content: '|Sim';
+    }
+
+    5% {
+        content: '|Simo';
+    }
+
+    6% {
+        content: '|Simon';
+    }
+
+    7% {
+        content: '|Simone';
+    }
+
+    8% {
+        content: '|Simone ';
+    }
+
+    9% {
+        content: '|Simone O';
+    }
+
+    10% {
+        content: '|Simone Ol';
+    }
+
+    12% {
+        content: '|Simone Oli';
+    }
+
+    14% {
+        content: '|Simone Oliv';
+    }
+
+    16% {
+        content: '|Simone Olivi';
+    }
+
+    18% {
+        content: '|Simone Olivia';
+    }
+
+    20% {
+        content: '|Simone Olivi';
+    }
+
+    22% {
+        content: '|Simone Oliv';
+    }
+
+    24% {
+        content: '|Simone Oli';
+    }
+
+    26% {
+        content: '|Simone Ol';
+    }
+
+    28% {
+        content: '|Simone O';
+    }
+
+    30% {
+        content: '|Simone ';
+    }
+
+    32% {
+        content: '|Simone';
+    }
+
+    36% {
+        content: '|Simon';
+    }
+
+    37% {
+        content: '|Simo';
+    }
+
+    38% {
+        content: '|Sim';
+    }
+
+    39% {
+        content: '|Si';
+    }
+
+    40% {
+        content: '|S';
+    }
+
+    41% {
+        content: '|';
+    }
+
+    42% {
+        content: '|D';
+    }
+
+    43% {
+        content: '|De';
+    }
+
+    44% {
+        content: '|Des';
+    }
+
+    45% {
+        content: '|Desi';
+    }
+
+    46% {
+        content: '|Desig';
+    }
+
+    47% {
+        content: '|Design';
+    }
+
+    48% {
+        content: '|Designe';
+    }
+
+    49% {
+        content: '|Designer';
+    }
+
+    50% {
+        content: '|Designe';
+    }
+
+    52% {
+        content: '|Design';
+    }
+
+    53% {
+        content: '|Desig';
+    }
+
+    54% {
+        content: '|Desi';
+    }
+
+    55% {
+        content: '|Des';
+    }
+
+    56% {
+        content: '|De';
+    }
+
+    57% {
+        content: '|D';
+    }
+
+    60% {
+        content: '|';
+    }
+
+    61% {
+        content: '|P';
+    }
+
+    62% {
+        content: '|Ph';
+    }
+
+    63% {
+        content: '|Pho';
+    }
+
+    64% {
+        content: '|Phot';
+    }
+
+    65% {
+        content: '|Photo';
+    }
+
+    66% {
+        content: '|Photo ';
+    }
+
+    67% {
+        content: '|Photog';
+    }
+
+    68% {
+        content: '|Photogr';
+    }
+
+    69% {
+        content: '|Photogra';
+    }
+
+    70% {
+        content: '|Photograp';
+    }
+
+    71% {
+        content: '|Photograph';
+    }
+
+    72% {
+        content: '|Photographe';
+    }
+
+    75% {
+        content: '|Photographer';
+    }
+
+    77% {
+        content: '|Photographe';
+    }
+
+    79% {
+        content: '|Photograph';
+    }
+
+    80% {
+        content: '|Photograp';
+    }
+
+    82% {
+        content: '|Photogra';
+    }
+
+    84% {
+        content: '|Photogr';
+    }
+
+    86% {
+        content: '|Photog';
+    }
+
+    88% {
+        content: '|Photo';
+    }
+
+    90% {
+        content: '|Phot';
+    }
+
+    92% {
+        content: '|Pho';
+    }
+
+    95% {
+        content: '|Ph';
+    }
+
+    98% {
+        content: '|P';
+    }
+
+    100% {
+        content: '|';
+        color: #20c997;
+    }
+}
+
+.about .name {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    color: #20c997;
+}
+
+.about .container h2 {
+    text-align: left;
+}
+
+.about .container .aboutp {
+    color: rgb(108, 117, 125);
+}
+
+.formbtn {
+    background-color: #20c997;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 40px;
+    color: #fff;
+    transition: all .6s;
+    margin: 15px 0px;
+}
+
+.formbtn:hover {
+    transform: rotate(10deg);
+}
+
+.about .green {
+    background-color: #20c997;
+    border-radius: 10px;
+    color: #fff;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .grey {
+    background-color: #F2F2F2;
+    color: #000;
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatdo {
+    margin: 50px 0px;
+    padding-bottom: 30px;
+    background-color: #F2F2F2;
+}
+
+.whatdo h2,
+.resume h2,
+.portofolio h2,
+.client h2,
+.contact h2 {
+    text-align: center;
+    font-weight: 700;
+    font-family: "Concert One", sans-serif;
+}
+
+.whatdo h3 {
+    font-weight: 500;
+    font-family: "Concert One", sans-serif;
+    font-size: 20px;
+}
+
+.icon {
+    color: #20c997;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 40px;
+    box-shadow: 1px 1px 20px #bdbdbd;
+    border: none;
+    outline: none;
+    transition: all 1s;
+    transition-delay: .6s;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.info {
+    padding-top: 15px;
+}
+
+.icon-info {
+    padding: 10px;
+    transition: all .6s;
+    margin: 5px 0px;
+}
+
+.icon-info:hover {
+    background-color: #20c997;
+    border-radius: 10px;
+    transform: scale(1.04);
+}
+
+.icon-info:hover .icon {
+    transform: rotateY(180deg);
+}
+
+.resume .edu {
+    text-align: left;
+    font-weight: 400;
+    font-family: Kalam;
+    margin-bottom: 1rem;
+}
+
+.edu-info {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px;
+    outline: none;
+    border: 1px solid #F2F2F2;
+    transition: all 1s;
+    margin: 9px 0px;
+}
+
+.edu-info:hover {
+    background-color: #fff;
+    border: 1px solid #F2F2F2;
+    outline: none;
+
+}
+
+.edu-info p {
+    font-size: 16px;
+}
+
+.edu-info h4 {
+    font-weight: 500;
+    font-family: "Concert One", sans-serif;
+}
+
+.red {
+    color: rgb(220, 53, 69);
+}
+
+.f-color {
+    color: #20c997;
+}
+
+.projects img {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.projects .layer {
+    background-color: rgb(0, 0, 0, .7);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 199909999;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: center;
+    transition: all 1s;
+
+}
+
+.project:hover .layer {
+    bottom: 0;
+    left: 0;
+}
+
+.portofolio {
+    background-color: #F2F2F2;
+
+}
+
+.clientspeak h2 {
+    text-align: left;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.clientspeak h3 {
+    font-family: "Concert One", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.clientspeak .icons {
+    color: #FFD700;
+
+}
+
+.clientspeak .icons i {
+    padding: 0px 5px;
+
+}
+
+.clientspeak p {
+    padding-left: 10px;
+}
+
+.C-green {
+    background-color: #20c997;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.C-grey {
+    background-color: #F2F2F2;
+    color: #000;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: #F2F2F2;
+    margin-top: 40px;
+}
+
+.contact-info i {
+    color: #20c997;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.contact-info h3 {
+    color: #20c997;
+    font-family: "Concert One", sans-serif;
+}
+
+.contact-form {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Concert One", sans-serif;
+}
+
+.contact-form input::placeholder,
+textarea::placeholder {
+    font-family: kalam;
+    color: rgb(33, 37, 41);
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 10rem;
+}
+
+.col {
+    padding: 0px 3px;
+}
+
+.form-control {
+    border-radius: 7px;
+    margin-bottom: 8px;
+    border: 1px solid #20c997;
+    padding: 5px;
+}
+
+.btn1 {
+    background-color: #20c997;
+    color: #F2F2F2;
+    font-family: kalam;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px 18px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.btn1:hover {
+    transform: skew(10deg, 10deg);
+}
